@@ -129,7 +129,7 @@ export default class App extends Component {
       if(item.score>= 21){
 
         let newArray = [...this.state.players];
-        newArray[i].wins = newArray[i].wins +1;
+        newArray[1].wins = newArray[1].wins +1;
 
         for (let i = 0; i < newArray.length; i++) {
           newArray[i].score = 0;
